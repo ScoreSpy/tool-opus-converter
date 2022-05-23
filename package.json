@@ -21,9 +21,15 @@
     ],
     "outputPath": "build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "queue-promise": "^2.2.1",
+    "yargs": "^17.5.1"
+  },
   "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.20",
     "@types/node": "^17.0.31",
+    "@types/yargs": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "eslint": "^8.15.0",

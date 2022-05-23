@@ -4,7 +4,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "target": "es2019",
-    "allowJs": true,
+    "allowJs": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "rootDir": ".",
@@ -16,8 +16,8 @@
     "paths": {
       "*": ["node_modules/*"]
     },
-    "noImplicitAny": false,
-    "lib": ["es2019", "dom"]
+    "noImplicitAny": true,
+    "lib": ["es2019"]
   },
   "exclude": [
     "./dist"
