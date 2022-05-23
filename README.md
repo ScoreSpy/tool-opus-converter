@@ -9,3 +9,8 @@
 ```
 
 This will convert ALL files with extensions .ogg .mp3 .wav to .opus and remove the old audio files, consider having a backup as we are not liable for the pain of redownloading songs
+
+# FFMPEG is required to run this tool
+Windows: https://www.wikihow.com/Install-FFmpeg-on-Windows
+
+Mac / Linux: google it 🤷‍♀️
