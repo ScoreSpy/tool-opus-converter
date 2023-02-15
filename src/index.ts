@@ -27,8 +27,8 @@ async function init() {
     if (argv.path) { config.path = resolve(argv.path) }
     if (argv.p) { config.path = resolve(argv.p) }
 
-    if (argv.threads) { config.threads = parseInt(argv.t, 10) }
-    if (argv.t) { config.threads = parseInt(argv.threads, 10) }
+    if (argv.threads) { config.threads = parseInt(argv.threads, 10) }
+    if (argv.t) { config.threads = parseInt(argv.t, 10) }
 
     if (isNaN(config.threads) || config.threads < 1) {
         throw new Error(`invalid thread count: ${config.threads}`)
