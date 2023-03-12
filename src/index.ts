@@ -8,7 +8,7 @@ import opusConverter from './opusConverter'
 import yargs from 'yargs'
 
 async function init() {
-    console.log('ScoreSpy Opus Converter - 23/6/2022')
+    console.log('ScoreSpy Opus Converter - 17/03/2023')
     console.log('--help for help\n')
     const argv = yargs(hideBin(process.argv)).argv as { [x: string]: string }
 
@@ -54,7 +54,6 @@ async function init() {
 
     try {
         await opusConverter(config)
-        return
     } catch (error) {
         console.error('Unhandled exception')
         throw new Error(error)

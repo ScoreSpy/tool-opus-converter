@@ -2,7 +2,8 @@
   "name": "ch-opus",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/index.ts",
     "build": "tsc",
@@ -23,7 +24,7 @@
   },
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2",
-    "queue-promise": "^2.2.1",
+    "p-queue": "^6.6.2",
     "yargs": "^17.7.1"
   },
   "devDependencies": {
